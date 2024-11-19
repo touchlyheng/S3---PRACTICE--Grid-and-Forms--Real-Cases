@@ -1,0 +1,107 @@
+body {
+         font-family: Arial, sans-serif;
+         background-color: #f0f2f5;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         height: 100vh;
+         margin: 0;
+     }
+     .post {
+         background-color: white;
+         border-radius: 10px;
+         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+         width: 500px;
+         padding: 15px;
+         margin: 20px;
+     }
+     .post-header {
+         display: flex;
+         align-items: center;
+         margin-bottom: 15px;
+     }
+     .post-header img {
+         border-radius: 50%;
+         width: 40px;
+         height: 40px;
+         margin-right: 10px;
+     }
+     .post-header .name {
+         font-weight: bold;
+     }
+     .post-header .time {
+         color: gray;
+         font-size: 12px;
+     }
+     .post-header .dot {
+         height: 8px;
+         width: 8px;
+         background-color: #4caf50;
+         border-radius: 50%;
+         display: inline-block;
+         margin-left: 5px;
+     }
+     .post-header .more {
+         margin-left: auto;
+         color: gray;
+     }
+     .post-content {
+         margin-bottom: 15px;
+     }
+     .post-content img {
+         width: 100%;
+         border-radius: 10px;
+     }
+     .post-content .play-button {
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         font-size: 50px;
+         color: rgb(124, 119, 119);
+     }
+     .post-content .title {
+         font-size: 18px;
+         font-weight: bold;
+         margin-top: 10px;
+     }
+     .post-content .details {
+         color: gray;
+         font-size: 12px;
+     }
+     .post-footer {
+         display: flex;
+         align-items: center;
+         color: gray;
+         font-size: 14px;
+     }
+     .post-footer .likes, .post-footer .comments, .post-footer .share {
+         margin-right: 20px;
+         display: flex;
+         align-items: center;
+     }
+     .post-footer .likes i, .post-footer .comments i, .post-footer .share i {
+         margin-right: 5px;
+     }
+     .comment-section {
+         display: flex;
+         align-items: center;
+         margin-top: 15px;
+     }
+     .comment-section img {
+         border-radius: 50%;
+         width: 30px;
+         height: 30px;
+         margin-right: 10px;
+     }
+     .comment-section input {
+         width: 100%;
+         padding: 10px;
+         border-radius: 20px;
+         border: 1px solid #ccc;
+         outline: none;
+     }
+     .comment-section .emoji, .comment-section .gif {
+         margin-left: 10px;
+         color: gray;
+     }
